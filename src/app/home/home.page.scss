@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ion-content{
+    --background: black;
+}
+ion-row{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+ion-item {
+    width: 70%;
+    --background: black; 
+    color: white;
+    --border-width: 0;        /* Remove a borda */
+    --border-color: transparent; /* Define a cor da borda como transparente */  
+}
+h3{
+    width: 50%;
+    font-size: 60px;
+    font-weight: bold;
+}
+ion-button{
+    --background: black;
+    border: cyan 1px solid;
+    font-size: 18px;
+    width: 180px;
+    height: 80px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
