@@ -6,11 +6,17 @@
 ion-content{
     --background: black;
 }
-ion-row{
-    flex-direction: column;
+.row-title{
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
+    margin-bottom: 25px;
+}
+ion-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 ion-item {
@@ -21,16 +27,64 @@ ion-item {
     --border-color: transparent; /* Define a cor da borda como transparente */  
 }
 h3{
-    width: 50%;
-    font-size: 60px;
+    width: 100%;
+    font-size: 45px;
     font-weight: bold;
+}
+p{
+    color: cyan;
 }
 ion-button{
     --background: black;
     border: cyan 1px solid;
     font-size: 18px;
-    width: 180px;
+    width: 200px;
     height: 80px;
     margin-top: 10px;
     border-radius: 5px;
+}
+
+
+
+.row-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ion-card{
+    margin-top: 15px;
+    width: 250px;
+    height: 250px;
+    background: #2C3532;
+    padding: 10px;
+}
+ion-icon{
+    color: cyan;
+    font-size: 35px;
+}
+ion-card-subtitle{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 25px;
+}
+ion-card-content{
+    color: #fff;
+}
+.custom-line {
+    border: none;       
+    border-top: 5px solid cyan; 
+    width: 45px;  
+    margin-bottom: 25px;    
+}
+
+.servicos{
+    background: #0A0B0D;
+    flex-direction: column;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+h2{
+    text-align: justify;
 }
